@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontENd", "FrontENd", "{10536EC1-4833-41D5-BE72-A75D2FBC2EE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{F5D98F9A-80B4-42FC-8810-8E43A1254325}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{D0B9C5A0-5939-41D2-BC34-A241CE448176}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{3451C2CE-BA2B-4D2E-967A-65B55954033A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mago.Services.CouponApi", "Mago.Services.CouponApi\Mago.Services.CouponApi.csproj", "{1FDFCD54-8C89-4C98-813B-EB9A1E9963DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{12C5A683-D406-4154-8FCA-BACC6394BD3B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FDFCD54-8C89-4C98-813B-EB9A1E9963DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FDFCD54-8C89-4C98-813B-EB9A1E9963DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FDFCD54-8C89-4C98-813B-EB9A1E9963DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FDFCD54-8C89-4C98-813B-EB9A1E9963DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1FDFCD54-8C89-4C98-813B-EB9A1E9963DA} = {3451C2CE-BA2B-4D2E-967A-65B55954033A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03BA2758-70D3-4AD7-AECF-AB0B9350EE83}
+	EndGlobalSection
+EndGlobal

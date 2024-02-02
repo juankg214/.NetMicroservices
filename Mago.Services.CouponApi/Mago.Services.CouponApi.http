@@ -1,0 +1,6 @@
+@Mago.Services.CouponApi_HostAddress = http://localhost:5080
+
+GET {{Mago.Services.CouponApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
